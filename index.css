@@ -9,11 +9,7 @@
 /* color de nabvar */
 
 nav {
-    background: rgb(34, 186, 161);
-    margin-top: 20px;
-    margin-bottom: 20px;
-    margin-left: 0%;
-    margin-right: 0%;
+    background: white;
 }
 
 
@@ -121,11 +117,13 @@ article .parrafo2 {
 /* sobresalta el menu */
 
 li:hover {
-    background: rgb(26, 142, 126);
+    color: black;
+    background: rgb(92, 206, 187);
 }
 
 li div a:hover {
-    background: rgb(26, 142, 126);
+    color: black;
+    background: red;
 }
 
 
