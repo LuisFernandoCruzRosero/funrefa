@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+
+/* color de nabvar */
+
+nav {
+    background: rgb(34, 186, 161);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 0%;
+    margin-right: 0%;
+}
+
+
+/* color de icono menu */
+
+.nav-link i {
+    color: black;
+    margin: 2px;
+}
+
+
+/* icono de dropdonw*/
+
+.dropdown-item i {
+    margin-left: 10px;
+    margin-right: 10px;
+    color: black;
+}
+
+
+/* color de icono del menu para telefono o tablet */
+
+span i {
+    color: black;
+}
+
+
+/* color de letra del navbar*/
+
+ul li a {
+    color: black;
+    font-size: 25px;
+}
+
+main {
+    width: 100%;
+    height: auto;
+    background: rgb(34, 186, 161);
+    position: absolute;
+}
+
+.content-all {
+    width: 100%;
+    max-width: 1000px;
+    background: white;
+    margin: auto;
+    margin-top: 30px;
+    border: 10px solid white;
+}
+
+article {
+    padding: 40px;
+}
+
+
+/* cambios de imagen */
+
+article img {
+    width: 100%;
+    border: 10px solid white;
+    margin-top: 40px;
+}
+
+.imagen {
+    width: 200px;
+    border: 10px solid white;
+    float: left;
+}
+
+
+/* Titulo cambia color, tamaño, tipo de letra */
+
+article h1 {
+    font-size: 30px;
+    color: black;
+    font-weight: 700;
+    text-align: center;
+    font-family: Monaco, Georgia, Times, serif;
+}
+
+
+/* parrafo cambia letra, color, tipo de letra, tamaño etc.. */
+
+article .parrafo {
+    font-size: 20px;
+    color: black;
+    margin-top: 40px;
+    letter-spacing: 2px;
+    text-align: justify;
+    font-family: Monaco, Georgia, Times, serif;
+}
+
+
+/* parrafo 2 cambia letra, color, tamaño etc.. */
+
+article .parrafo2 {
+    font-size: 20px;
+    color: black;
+    margin-top: 40px;
+    text-align: justify;
+    font-family: Monaco, Georgia, Times, serif;
+}
+
+
+/* sobresalta el menu */
+
+li:hover {
+    background: rgb(26, 142, 126);
+}
+
+li div a:hover {
+    background: rgb(26, 142, 126);
+}
+
+
+/* cambia color letras del dropdonw */
+
+li div a {
+    color: black;
+    background: rgb(34, 186, 161);
+}
