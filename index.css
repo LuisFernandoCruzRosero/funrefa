@@ -133,3 +133,9 @@ li div a {
     color: black;
     background: rgb(34, 186, 161);
 }
+
+article .imagen2 img {
+    width: 100%;
+    border: 10px solid black;
+    margin: 20px;
+}
